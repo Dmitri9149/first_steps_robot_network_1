@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.8.10 on linux)" generated="2024-10-05T17:00:49.664871" rpa="false" schemaversion="5">
+<suite id="s1" name="Chrome Test" source="/home/dmitri/robot_frameworks/robot_frameworks_b/tests/simple_tests/chrome_test.robot">
+<test id="s1-t1" name="Valid Login" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-05T17:00:50.094205" level="INFO">Opening browser 'chrome' to base url 'https://google.fr'.</msg>
+<arg>https://google.fr</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-05T17:00:50.093654" elapsed="2.929974"/>
+</kw>
+<status status="PASS" start="2024-10-05T17:00:50.091536" elapsed="2.933654"/>
+</test>
+<doc>Simple example using SeleniumLibrary.</doc>
+<status status="PASS" start="2024-10-05T17:00:49.667049" elapsed="3.359527"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Chrome Test">Chrome Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
