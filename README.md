@@ -30,9 +30,11 @@ Robot Framework 7.1 (Python 3.8.10 on linux)
 
 Exit Code 251 -> **_251	Help or version information printed._**
 ```
-[**_251	Help or version information printed._**](https://github.com/robotframework/robotframework/issues/3759)
+[**_251	Help or version information printed._**](https://github.com/robotframework/robotframework/issues/3759)   
+
 
 ### Managing Dependencies with poetry     
+In this project I use the Poetry.   
 [use poetry][https://docs.robotframework.org/docs/getting_started/testing#install-robot-framework-in-a-virtual-environment]    
 
 ```
@@ -86,7 +88,7 @@ This command will guide you through creating your pyproject.toml config.
 Package name [robot_frameworks_b]:
 Version [0.1.0]:
 Description []:  first steps with robot frameworks
-Author [Dmitri9149 <dmitri.as.name@gmail.com>, n to skip]:  Dmitri
+Author [Dmitri]:  Dmitri
 License []:
 Compatible Python versions [^3.8]:
 
@@ -146,4 +148,9 @@ dmitri@LAPTOP-VNT3PO3A:~/robot_frameworks/robot_frameworks_b$ poetry run robot -
 Robot Framework 7.1 (Python 3.8.10 on linux)
 dmitri@LAPTOP-VNT3PO3A:~/robot_frameworks/robot_frameworks_b$ 
 ```
+Add Selenium: 
+```
+pip install --upgrade robotframework-seleniumlibrary
+```
+
 
