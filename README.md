@@ -141,3 +141,9 @@ No dependencies to install or update
 Writing lock file
 ```
 
+```
+dmitri@LAPTOP-VNT3PO3A:~/robot_frameworks/robot_frameworks_b$ poetry run robot --version
+Robot Framework 7.1 (Python 3.8.10 on linux)
+dmitri@LAPTOP-VNT3PO3A:~/robot_frameworks/robot_frameworks_b$ 
+```
+
