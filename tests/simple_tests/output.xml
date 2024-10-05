@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1 (Python 3.8.10 on linux)" generated="2024-10-05T17:00:49.664871" rpa="false" schemaversion="5">
-<suite id="s1" name="Chrome Test" source="/home/dmitri/robot_frameworks/robot_frameworks_b/tests/simple_tests/chrome_test.robot">
-<test id="s1-t1" name="Valid Login" line="7">
+<robot generator="Robot 7.1 (Python 3.8.10 on linux)" generated="2024-10-05T17:11:55.814937" rpa="false" schemaversion="5">
+<suite id="s1" name="Chrome Test B" source="/home/dmitri/robot_frameworks/robot_frameworks_b/tests/simple_tests/chrome_test_b.robot">
+<test id="s1-t1" name="Valid Login" line="11">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-10-05T17:00:50.094205" level="INFO">Opening browser 'chrome' to base url 'https://google.fr'.</msg>
-<arg>https://google.fr</arg>
-<arg>chrome</arg>
+<msg time="2024-10-05T17:11:56.057756" level="INFO">Opening browser 'Chrome' to base url 'https://google.fr'.</msg>
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-10-05T17:00:50.093654" elapsed="2.929974"/>
+<status status="PASS" start="2024-10-05T17:11:56.057127" elapsed="2.048318"/>
 </kw>
-<status status="PASS" start="2024-10-05T17:00:50.091536" elapsed="2.933654"/>
+<status status="PASS" start="2024-10-05T17:11:56.055054" elapsed="2.051404"/>
 </test>
-<doc>Simple example using SeleniumLibrary.</doc>
-<status status="PASS" start="2024-10-05T17:00:49.667049" elapsed="3.359527"/>
+<doc>Simple example using SeleniumLibrary.
+ https://stackoverflow.com/questions/57189253/no-keyword-with-name-open-browser-found</doc>
+<status status="PASS" start="2024-10-05T17:11:55.816667" elapsed="2.291023"/>
 </suite>
 <statistics>
 <total>
@@ -21,7 +22,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Chrome Test">Chrome Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Chrome Test B">Chrome Test B</stat>
 </suite>
 </statistics>
 <errors>
