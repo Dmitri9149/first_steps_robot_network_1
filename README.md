@@ -1,6 +1,11 @@
+I learn [robot framework](https://docs.robotframework.org/)  
+These are first steps with robot framework, I try different setups with 
+Windows and Linux.  
+This is heap of simple tests on ```WSL 2 on Windows```. 
+
 ### Robot framework, follow the steps from 
-[Robot Frameworks](https://docs.robotframework.org/)
-[Robot Frameworks Guides](https://docs.robotframework.org/docs)   
+[Robot Framework](https://docs.robotframework.org/)
+[Robot Framework Guide](https://docs.robotframework.org/docs)   
 [Test Automation](https://docs.robotframework.org/docs/getting_started/testing)
 
 ### Install Python 
@@ -68,7 +73,7 @@ Poetry (version 1.8.3)
 
 ### Virtual Environment Folder    
 ```
-Poetry will save the virtual enviromentson in the .poetry/envs folder. You can change that setting and store your virtual environment in the project folder by running
+Poetry will save the virtual enviroment in the .poetry/envs folder. You can change that setting and store your virtual environment in the project folder by running
 
 poetry config virtualenvs.in-project true
 ```
